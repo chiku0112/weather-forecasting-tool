@@ -44,7 +44,6 @@ def city(
     weather_data = _get_weather_data(city=city)
     print_weather_data(weather_data)
 
-
 # create a get weather function that takes in a city as an argument and returns the weather data using the OpenWeatherMap API
 def _get_weather_data(city: str) -> dict:
     # """Get weather data from OpenWeatherMap API."""
